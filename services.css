@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: url(./assets/images/meritt-thomas-q3MKzlcOpyI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(20px);
+    overflow-x:hidden ;
+    width: 100%;
+}
+
+.heading{
+    height: fit-content;
+    background-color: rgb(193, 193, 44);
+}
+
+.image>img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.heading>h1{
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.text>p{
+    color: whitesmoke;
+}
+
+.content{
+    display: flex;
+    padding: 50px;
+}
+.text{
+    margin: 40px;
+}
+.button{
+    margin-left: 40px;
+}
+
+.satisfied{
+    border-radius: 20px;
+    background-color: rgb(10, 161, 167);
+    height: 40px;
+    width:120px;
+}
+.not_satisfied{
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(10, 161, 167);
+    height: 40px;
+    width:120px;
+}
+
+.contenttext11{
+    width: 140vh;
+}
+
+.contenttext{
+    width: 140vh;
+    margin-left: 50px;
+}
